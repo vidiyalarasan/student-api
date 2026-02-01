@@ -80,6 +80,7 @@ student-project/
   "email": "vidiya@gmail.com",
   "course": "Java"
 }
+```
 
 ▶️ Run Locally
 Backend
