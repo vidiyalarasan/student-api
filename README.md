@@ -1,136 +1,131 @@
 # 🎓 Student Management System
 
-A full-stack **Student Management System** built using **Spring Boot**, **PostgreSQL**, and **Vanilla JavaScript**, with a modern UI and real cloud deployment.
-
-This project demonstrates real-world frontend–backend integration using REST APIs.
-
----
-
-## 🌍 Live Demo
-
-**Frontend (GitHub Pages):**  
-https://vidiyalarasan.github.io/student-project/
-
-**Backend API (Railway):**  
-https://student-api-production-da62.up.railway.app/api/students
+A simple yet complete **full-stack web application** for managing students, built using **Spring Boot**, **PostgreSQL**, and **Vanilla JavaScript**.  
+This project focuses on **real backend–frontend integration** and **cloud deployment**, without using heavy frontend frameworks.
 
 ---
 
-## 🧱 Tech Stack
+## 🌐 Live Application
+
+### Frontend (GitHub Pages)
+👉 https://vidiyalarasan.github.io/student-project/
+
+### Backend API (Railway)
+👉 https://student-api-production-da62.up.railway.app/api/students
+
+---
+
+## 🛠️ Tech Stack
 
 ### Backend
 - Java 21
 - Spring Boot
 - Spring Data JPA
-- PostgreSQL (Railway)
+- PostgreSQL (Railway Cloud DB)
 - Maven
 
 ### Frontend
 - HTML
-- CSS (custom modern styling)
+- CSS
 - JavaScript (Fetch API)
 
 ### Deployment
-- Backend & Database: Railway
-- Frontend: GitHub Pages
-- Version Control: GitHub
+- Backend & Database: **Railway**
+- Frontend Hosting: **GitHub Pages**
+- Version Control: **GitHub**
 
 ---
 
 ## ✨ Features
 
-- Add students from the UI
-- Load students manually
+- Add new students via UI
+- Manually load students from database
 - Delete students
-- RESTful API architecture
-- Cloud PostgreSQL database
-- Modern card-based UI
-- Fully deployed frontend and backend
+- RESTful API design
+- Cloud-hosted PostgreSQL database
+- CORS-enabled backend
+- Separate frontend and backend deployment
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-
-student-project
-|
-|-- backend
-|-- docs
-|   |-- index.html
-|   |-- script.js
-|   |-- style.css
-|-- README.md
+student-project/
+├── backend/ # Spring Boot backend
+├── docs/ # Frontend (GitHub Pages)
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+└── README.md
 
 
 ---
 
-## 🔌 API Endpoints
+## 🔌 REST API Endpoints
 
 | Method | Endpoint | Description |
 |------|---------|-------------|
-| GET | /api/students | Fetch all students |
-| POST | /api/students | Add a new student |
-| DELETE | /api/students/{id} | Delete a student |
+| GET | `/api/students` | Get all students |
+| POST | `/api/students` | Add a new student |
+| DELETE | `/api/students/{id}` | Delete student by ID |
 
 ---
 
-## 🧪 Sample POST Request
+## 🧪 Example API Request
 
+### POST `/api/students`
 ```json
 {
   "name": "Vidiyalarasan",
   "email": "vidiya@gmail.com",
   "course": "Java"
-}```
+}
 
+▶️ Run Locally
+Backend
 
----
-
-## How to Run Locally
-
-Backend:
 cd backend
 mvn spring-boot:run
 
-Frontend:
-Open docs/index.html in browser
+Frontend
 
----
+Open the file below directly in a browser:
 
-## Key Learnings
-- Spring Boot REST API development
+docs/index.html
 
-- Frontend ↔ Backend communication using Fetch API
+🧠 What I Learned
 
-- Cloud PostgreSQL integration
+    Building REST APIs with Spring Boot
 
-- GitHub Pages and Railway deployment
+    Connecting frontend to backend using Fetch API
 
-C- ORS handling and HTTP methods
+    PostgreSQL cloud database integration
 
-- UI/UX improvement without frameworks
+    CORS handling
 
-- Monorepo project structure
+    Deploying backend and database on Railway
 
----
+    Hosting frontend on GitHub Pages
 
-## Future Improvements
+    Structuring a monorepo project
 
-- Edit / Update student
+    Debugging real production issues
 
-- Search and filter
+🚀 Future Enhancements
 
-- Delete confirmation modal
+    Update student details
 
-- Pagination
+    Search & filter students
 
-- Swagger API documentation
+    Confirmation dialog for delete
 
-- Validation and error handling
+    Pagination
 
----
+    Better UI/UX styling
 
-## Author
+    API documentation using Swagger
+
+👤 Author
 
 Vidiyalarasan
-Java Backend Learner
+Java Backend Developer (Learning Phase)
