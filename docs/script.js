@@ -73,5 +73,5 @@ function deleteStudent(id) {
     .then(() => loadStudents())
     .catch(err => console.error(err));
 }
-loadStudents();
+//loadStudents();
 
