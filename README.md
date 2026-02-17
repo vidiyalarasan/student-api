@@ -77,7 +77,7 @@ student-project/
 ```json
 {
   "name": "Vidiyalarasan",
-  "email": "vidiya@gmail.com",
+  "email": "vidiyal@gmail.com",
   "course": "Java"
 }
 ```
