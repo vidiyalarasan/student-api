@@ -40,4 +40,9 @@ public class StudentController {
         return service.update(id, student);
 }
 
+    @GetMapping("/")
+    public String home() {
+        return "Student API is running 🚀";
+    }
+
 }
